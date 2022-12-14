@@ -1,0 +1,13 @@
+[user]
+	name = Kouamo Olaf
+	email = "olaf.kouamo@axian-group.com"
+[color]
+	ui = true
+[alias]
+	ly = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(blue)%h%C(reset) - %C(dim green)(%ar)%C(reset) %C(normal)%s%C(reset) %C(dim normal)- %an%C(reset)%C(yellow)%d%C(reset)' --all
+[push]
+	default = simple
+[http]
+	postBuffer = 524288000
+[core]
+	compression = -1
